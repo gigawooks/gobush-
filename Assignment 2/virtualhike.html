@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Hikes</title>
+    <link rel="stylesheet" href="CSS\styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Go Bush! Hikes!</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="aboutpage.html">About Us</a></li>
+                <li><a href="virtualhike.html">Virtual Hikes</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Explore Our Virtual Hikes</h2>
+        <p>Experience nature like never before! Purchase access to our stunning virtual hikes and explore breathtaking trails from the comfort of your home.</p>
+
+        <section class="video-gallery">
+            <h3>Available Virtual Hikes</h3>
+
+            <div class="video-item">
+                <h4>Hike Name 1</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1JlwXTlOJW0?si=XOTpTljTPs3Reva_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Price: $16.99</p>
+                <button onclick="purchaseHike('Hike Name 1')">Purchase</button>
+            </div>
+
+            <div class="video-item">
+                <h4>Hike Name 2</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hld4uaO1MDE?si=HRkw4z0ODYoBkrlJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Price: $16.99</p>
+                <button onclick="purchaseHike('Hike Name 2')">Purchase</button>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <!-- Add more video items as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Go Bush!. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
